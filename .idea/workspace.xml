@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7fbf6e92-2b92-468c-b2c0-d9ce12656d68" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinestore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinestore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carts/migrations/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/category/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +38,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Django migration.migrate db loader">
-    <configuration name="apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/store" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.checkout.html">
+    <configuration name="checkout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/onlinestore/templates/store/checkout.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="onlinestore" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,12 +59,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/carts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/category" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carts/apps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/category/admin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="context_processors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="onlinestore" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,12 +81,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/category" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/category/context_processors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="forms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="onlinestore" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onlinestore" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onlinestore/forms.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,34 +139,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="migrate db loader" type="com.chornsby.intellij.plugins.django.MigrationRunConfigurationType" factoryName="Django migration" temporary="true">
-      <module name="onlinestore" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="migrate db loader" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Django migration.migrate db loader" />
+        <item itemvalue="JavaScript Debug.checkout.html" />
         <item itemvalue="Django migration.migrate carts forms" />
-        <item itemvalue="Python.manage" />
-        <item itemvalue="Python.apps" />
+        <item itemvalue="Python.forms" />
+        <item itemvalue="Python.admin" />
+        <item itemvalue="Python.context_processors" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +162,9 @@
       <workItem from="1641926766117" duration="95000" />
       <workItem from="1642230061931" duration="4939000" />
       <workItem from="1642238138644" duration="2246000" />
-      <workItem from="1642255140990" duration="6953000" />
+      <workItem from="1642255140990" duration="8035000" />
+      <workItem from="1642452914041" duration="327000" />
+      <workItem from="1642453269237" duration="3521000" />
     </task>
     <servers />
   </component>
@@ -170,6 +186,11 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/onlinestore$forms.coverage" NAME="forms Coverage Results" MODIFIED="1642455085831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/onlinestore" />
+    <SUITE FILE_PATH="coverage/onlinestore$migrate_db_loader.coverage" NAME="migrate db loader Coverage Results" MODIFIED="1642273872130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/onlinestore$admin.coverage" NAME="admin Coverage Results" MODIFIED="1642455065754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/category" />
     <SUITE FILE_PATH="coverage/onlinestore$manage.coverage" NAME="manage Coverage Results" MODIFIED="1641926544705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/onlinestore$context_processors.coverage" NAME="context_processors Coverage Results" MODIFIED="1642455051028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/category" />
+    <SUITE FILE_PATH="coverage/onlinestore$migrate_carts_forms.coverage" NAME="migrate carts forms Coverage Results" MODIFIED="1642455487703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
